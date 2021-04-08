@@ -8,4 +8,4 @@ mkdir __tests__
 touch $name.js
 cd __tests__
 touch $name.test.js
-echo "You're only here once, Have Fun!"
+echo "You're only here once,  B E  K I N D  &&  H A V E  F U N !"
