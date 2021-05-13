@@ -14,3 +14,7 @@
 
 # or actually find a way to run the process in the current terminal automatically
 
+challengeName=$(<~/scripts/lastJsCodeChallenge.sh)
+echo "this is challengeName: $challengeName, did you get it?"
+npm test $challengeName
+echo 'Yay!'

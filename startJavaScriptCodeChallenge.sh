@@ -25,6 +25,8 @@ describe('Basic test of ${name}', () => {
 " > ${name}.test.js
 cd ..
 code .
-npm test $name.test.js
+# update lastJsCodeCallenge
+
+echo "${name}.test.js" > ~/scripts/lastJsCodeChallenge.sh 
 
 echo "You're only here once, Have Fun!"
